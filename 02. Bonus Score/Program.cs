@@ -5,7 +5,7 @@ namespace _02._Bonus_Score
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             int num = int.Parse(Console.ReadLine());
             double bonus = 0;
             if (num <= 100)

@@ -19,11 +19,7 @@ namespace _05._Time___15_Minutes
             {
                 hour = 0;
             }
-
-
             Console.WriteLine($"{hour}:{minutes:d2}");
-
-
         }
     }
 }

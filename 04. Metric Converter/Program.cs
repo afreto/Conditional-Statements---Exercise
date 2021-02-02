@@ -5,7 +5,7 @@ namespace _04._Metric_Converter
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             double number = double.Parse(Console.ReadLine());
             string inputVal = Console.ReadLine();
             string outputVal = Console.ReadLine();

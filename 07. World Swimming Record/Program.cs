@@ -6,11 +6,9 @@ namespace _07._World_Swimming_Record
     {
         static void Main(string[] args)
         {
-
             double recordInSeconds = double.Parse(Console.ReadLine());
             double distance = double.Parse(Console.ReadLine());
             double seconds = double.Parse(Console.ReadLine());
-
             double distanceInseconds = distance * seconds;
             double delay = Math.Floor(distance / 15) * 12.5;
             double finalTime = distanceInseconds + delay;

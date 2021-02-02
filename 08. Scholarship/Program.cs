@@ -6,7 +6,6 @@ namespace _08._Scholarship
     {
         static void Main(string[] args)
         {
-
             double income = double.Parse(Console.ReadLine());
             double averageGrade = double.Parse(Console.ReadLine());
             double minimalSalary = double.Parse(Console.ReadLine());
@@ -22,7 +21,6 @@ namespace _08._Scholarship
                 {
                     Console.WriteLine($"You get a scholarship for excellent results {scholarshipForExcellentResult} BGN");
                 }
-
             }
             else if (averageGrade >= 5.5)
             {

@@ -5,7 +5,7 @@ namespace _03._Speed_Info
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             double speed = double.Parse(Console.ReadLine());
 
             if (speed > 150 && speed <= 1000)
